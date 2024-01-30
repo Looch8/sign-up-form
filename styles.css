@@ -1,4 +1,45 @@
-h1 {
-	color: darkcyan;
+body {
+	display: flex;
 	font-family: "Single Day";
+	height: 100vh;
+	margin: 0%;
+}
+
+.box1 {
+	border: solid blue 5px;
+	width: 35%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+.logo {
+	display: flex;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	padding-left: 50%;
+	padding-right: 50%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	border: 0;
+	margin-bottom: 40%;
+	font-size: 3.5rem;
+	font-weight: bolder;
+}
+
+.logo-image {
+	width: 50%;
+	height: auto;
+}
+.box2 {
+	border: solid red 5px;
+	width: 65%;
 }
