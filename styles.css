@@ -4,6 +4,7 @@ body {
 	font-family: "Single Day";
 	height: 100vh;
 	margin: 0%;
+	background-color: rgba(234, 232, 232);
 }
 
 /* Background section */
@@ -55,15 +56,26 @@ header {
 }
 
 form {
-	border: solid green 5px;
 	padding: 10px;
 	display: flex;
 	flex-direction: column;
+	background-color: whitesmoke;
 }
 
 footer {
-	border: solid pink 5px;
 	background-color: rgba(234, 232, 232);
+	margin-bottom: 0;
+}
+
+button {
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 15%;
+	font-weight: bold;
+	background-color: peachpuff;
+	margin-left: 25px;
+	margin-top: 20px;
 }
 
 fieldset {
@@ -110,4 +122,14 @@ p {
 
 .align-left {
 	margin-right: 80px;
+}
+
+.log-in {
+	margin-top: 20px;
+	padding: 20px;
+	font-size: 1.3rem;
+}
+
+input {
+	font-size: 1.4rem;
 }
