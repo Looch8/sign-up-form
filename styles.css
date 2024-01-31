@@ -133,3 +133,13 @@ p {
 input {
 	font-size: 1.4rem;
 }
+
+button:hover {
+	background-color: rgb(226, 192, 162);
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(243, 113, 0);
+}
