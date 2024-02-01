@@ -134,6 +134,10 @@ input {
 	font-size: 1.4rem;
 }
 
+input:focus {
+	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
 button:hover {
 	background-color: rgb(226, 192, 162);
 	cursor: pointer;

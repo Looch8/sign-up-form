@@ -72,12 +72,19 @@
 				<fieldset>
 					<div class="form-row">
 						<div class="align-left">
-							<label for="email">EMAIL</label>
-							<input type="email" id="email" name="email" />
+							<label for="email" class="error">* EMAIL</label>
+							<input
+								type="email"
+								id="email"
+								name="email"
+								required
+							/>
 						</div>
 
 						<div class="align-right">
-							<label for="phone_number">PHONE NUMBER</label>
+							<label for="phone_number" class="error"
+								>PHONE NUMBER</label
+							>
 							<input
 								type="number"
 								id="phone_number"
@@ -90,22 +97,28 @@
 				<fieldset>
 					<div class="form-row">
 						<div class="align-left">
-							<label for="password">PASSWORD</label>
+							<label for="password" class="error"
+								>* PASSWORD</label
+							>
 							<input
 								type="password"
 								id="password"
 								name="password"
+								minlength="8"
+								maxlength="20"
+								required
 							/>
 						</div>
 
 						<div class="align-right">
-							<label for="confirm_password"
-								>CONFIRM PASSWORD</label
+							<label for="confirm_password" class="error"
+								>* CONFIRM PASSWORD</label
 							>
 							<input
 								type="password"
 								id="confirm_password"
 								name="confirm_password"
+								required
 							/>
 						</div>
 					</div>
